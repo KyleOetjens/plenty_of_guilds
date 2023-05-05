@@ -1,0 +1,4 @@
+DB_NAME='new_db'
+DB_USER='root'
+DB_PASSWORD=''
+SECRET='1asd32wsr4!$'

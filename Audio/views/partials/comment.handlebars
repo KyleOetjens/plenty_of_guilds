@@ -1,0 +1,16 @@
+<section class="card col-span-1 px-4  bg-slate-600 ">
+  <!-- <a href="/painting/{{id}}"> The contents of the painting card links to the painting page using the painting ID -->
+  
+    <!-- The card contains the painting name as the card header -->
+    
+    <!-- In the body of the card, the painting is rendered along with the artist name -->
+
+    <div class="card-body">
+      <p>{{comment_body}}
+        {{#if is_comment sessionUserId user_id }}
+    <button class="" data-id="{{id}}">DELETE</button>
+    {{/if}}
+      </p>
+    </div>
+
+</section>

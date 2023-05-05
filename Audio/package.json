@@ -1,0 +1,36 @@
+{
+  "name": "new_db",
+  "version": "1.0.0",
+  "description": "![badge](https://img.shields.io/badge/license-MIT-important)",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "seed": "node seeds/seed.js",
+    "tw": "npx tailwindcss -i ./public/css/style.css -o ./public/css/output.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "connect-session-sequelize": "^7.0.4",
+    "dotenv": "^8.2.0",
+    "express": "^4.18.2",
+    "express-handlebars": "^5.2.0",
+    "express-session": "^1.17.1",
+    "handlebars": "^4.7.7",
+    "morgan": "^1.10.0",
+    "mysql2": "^2.2.5",
+    "pattern.css": "^1.0.0",
+    "sequelize": "^6.30.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.14",
+    "eslint": "^7.12.1",
+    "eslint-config-prettier": "^6.15.0",
+    "postcss": "^8.4.21",
+    "prettier": "^2.1.2",
+    "tailwindcss": "^3.2.7"
+  }
+}
